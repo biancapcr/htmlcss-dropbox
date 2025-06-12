@@ -5,3 +5,28 @@
   padding: 0;
   font-family: Arial, sans-serif;
 }
+
+body{
+  color: black;
+  background-color: white;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  font-weight: lighter;
+}
+
+/* Header */
+.header{
+  padding: 20px 0;
+  background-color: white;
+}
+
+/* Utility class */
+
+.container{
+    width: 90%;
+    display: flex;
+}
