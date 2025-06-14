@@ -128,7 +128,7 @@ body{
 
 }
 .btn-second{
-  background-color: #0061ff;
+  background-color: #0061FE;
   color: white;
   padding: 12px 24px;
   border: none;
@@ -231,7 +231,7 @@ ul li{
 
 }
 .btn-third{
-    background-color: #0061ff;
+    background-color: #0061FE;
     color: white;
     border: none;
     padding: 10px 24px;
@@ -242,7 +242,7 @@ ul li{
     text-align: center;
 }
 .btn-fourth{
-    background-color: #0061ff;
+    background-color: #0061FE;
     border: none;
     color: white;
     white-space: nowrap;
@@ -279,7 +279,7 @@ ul li{
   border: 2.3px solid #ccc;
 }
 .active .dot{
-  border-color: #0061ff;
+  border-color: #0061FE;
 }
 /* ====== Partner ====== */
 .partner-section {
@@ -336,3 +336,69 @@ ul li{
   margin-left: 85px;
 }
 /* ====== Dropbox ====== */
+.features-section{
+  padding: 80px 0;
+  background-color: white;
+}
+
+.container-features{
+  width: 70%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.features-title{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 50px;
+}
+
+.features-row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px 20px;
+  margin-bottom: 80px;
+}
+
+.col-5{
+  width: calc(33% - 20px);
+  box-sizing: border-box;
+}
+
+.feature-card img{
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.feature-card h4{
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 23px;
+}
+
+.feature-card p{
+  font-size: 13px;
+  color: black;
+  line-height: 1.5;
+}
+
+.clients-section{
+  text-align: left;
+  margin-top: 50px;
+}
+
+.clients-section h3{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.clients-section .blue-link{
+  color: #3C3BF1;
+  font-size: 11px;
+  text-decoration: none;
+}
