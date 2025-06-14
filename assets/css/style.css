@@ -251,7 +251,7 @@ ul li {
 .pricing-card li i{
     margin-right: 6px;
 }
-.options {
+.options{
   display: flex;
   justify-content: left;
   gap: 35px;
@@ -263,14 +263,21 @@ ul li {
   gap: 5px;
   font-size: 14px;
 }
-.dot {
+.dot{
   width: 15px;
   height: 15px;
   border-radius: 50%;
   border: 3.4px solid #ccc;
   background-color: white;
-  box-sizing: border-box;
+
 }
-.active .dot {
+.dot-2{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2.3px solid #ccc;
+  background-color: white;
+}
+.active .dot{
   border-color: #0061ff;
 }
