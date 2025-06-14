@@ -127,7 +127,7 @@ body{
   height: auto;
 
 }
-.btn-blue2{
+.btn-second{
   background-color: #0061ff;
   color: white;
   padding: 12px 24px;
@@ -137,6 +137,12 @@ body{
   margin-left: 50px;
 }
 /* ====== Business plans ====== */
+.container-2{
+  width: 60%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
 .pricing-section{
     background-color: white;
     padding: 80px 0;
@@ -146,11 +152,19 @@ body{
   text-align: center;
   margin-bottom: 40px;
 }
-.col-10{
-  width: calc((33% - 20px) /3);
+.row-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
 }
-.col-12{
+.col-3 {
+  width: (30% - 20px);
+  min-width: 280px;
+}
+.col-1{
   width: 100%;
+  box-sizing: border-box;
 }
 .plan-selector{
   text-align: center;
@@ -162,29 +176,75 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 20px;
 }
 .pricing-card{
-  background: white;
   border: 1px solid #ccc;
-  padding: 30px;
-  width: calc(33.333% - 20px);
+  padding: 40px;
+  width: calc(33% - 20px);
+  min-height: 600px;
   margin-bottom: 30px;
   box-sizing: border-box;
 }
+.price{
+    margin-bottom: 30px;
+}
+ul li {
+  margin-bottom: 15px;
+}
+.horizontal-card .left .plan-features{
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
 .pricing-card h3{
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 .pricing-card ul{
   list-style-type: none;
   margin-left: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.pricing-card p{
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 .horizontal-card{
-  width: 100%;
+  border: 1px solid #ccc;
+  padding: 40px;
+  width: calc(33%-20);
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .blue-link{
     color: #3C3BF1;
+}
+.options{
+    text-align: center;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.btn-third{
+    background-color: #0061ff;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    margin: 20px auto 10px auto;
+    text-align: center;
+}
+.btn-fourth{
+    background-color: #0061ff;
+    border: none;
+    color: white;
+    white-space: nowrap;
+    padding: 10px 22px;
+    text-align: center;
+    width: 200px;
 }
