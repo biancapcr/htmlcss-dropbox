@@ -248,3 +248,6 @@ ul li {
     text-align: center;
     width: 200px;
 }
+.pricing-card li i{
+    margin-right: 6px;
+}
