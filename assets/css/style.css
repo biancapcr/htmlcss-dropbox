@@ -58,7 +58,7 @@ body{
   padding: 8px 16px;
   font-size: 14px;
 }
-/* ====== Main ====== */
+/* ====== Main: Jumbotron ====== */
 .jumbotron{
   background-color: #B4D0E6;
   position: relative;
@@ -285,7 +285,7 @@ ul li{
 .active .dot{
   border-color: #0061FE;
 }
-/* ====== Partner ====== */
+/* ====== Partner Section ====== */
 .partner-section {
   padding: 80px 0;
   background-color: white;
@@ -339,7 +339,7 @@ ul li{
   font-size: 14px;
   margin-left: 85px;
 }
-/* ====== Dropbox ====== */
+/* ====== Dropbox Feature Grid ====== */
 .features-section{
   padding: 80px 0;
   background-color: white;
